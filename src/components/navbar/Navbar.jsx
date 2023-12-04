@@ -1,11 +1,12 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import {  Hamburger, Logo, Menu, MenuLink, Nav } from './NavbarStyles'
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from 'react';
+import { RecipeContext } from '../../App';
 const Navbar = () => {
 
   const[open,setOpen]=useState(false)
-
+const {logout}=useContext(RecipeContext)
   return (
     <Nav>
       <Logo to="/home">
@@ -20,7 +21,7 @@ const Navbar = () => {
       <Menu muhammed={open} onClick={()=>setOpen(false)}>
         <MenuLink to="/about"> about</MenuLink>
         <a href="https://github.com/" target='blank'>github</a>
-        <MenuLink to="/">logout</MenuLink>
+        <MenuLink to="/" onClick={logout}>logout</MenuLink>
       </Menu>
     </Nav>
   );

@@ -25,7 +25,11 @@ const App = () => {
     console.log(data.hits);
     setRecipes(data.hits);
   };
-
+const logout=()=>{
+  setName("")
+  setPass("")
+  localStorage.clear()
+}
   return (
     <RecipeContext.Provider
       value={{
@@ -37,6 +41,7 @@ const App = () => {
         setOgun,
         getData,
         recipes,
+        logout,
       }}
     >
       <AppRouter />

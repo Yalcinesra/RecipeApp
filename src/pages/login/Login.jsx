@@ -14,7 +14,7 @@ import { RecipeContext } from "../../App";
 
 const Login = () => {
   // const [name, setName] = useState("");
-  // const [pass, setPass] = useState("");
+  //  const [pass, setPass] = useState("");
 
   const {name,pass,setName,setPass}=useContext(RecipeContext)
 const navigate=useNavigate()
@@ -38,6 +38,7 @@ navigate("/home")
             type="text"
             placeholder="username"
             required
+         value={name}
             onChange={(e) => setName(e.target.value)}
           />
 
@@ -45,6 +46,7 @@ navigate("/home")
             type="password"
             placeholder="password"
             required
+          value={pass}
             onChange={(e) => setPass(e.target.value)}
           />
 
