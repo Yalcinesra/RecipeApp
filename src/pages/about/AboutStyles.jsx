@@ -18,16 +18,24 @@ export const AboutContainer = styled.div`
   }
 `;
 export const StyledImage = styled.img`
-  width: 500px;
+  width: 200px;
   margin-bottom: 2rem;
+  border-radius: 50%;
+  margin-top: 1rem;
 `;
 
 export const HeaderContainer = styled.div`
+text-align:center;
+display: flex;
+align-items: center;
   background-color: white;
+  border-radius: 10px;
+  height: 6rem;
+  margin-bottom: 1rem;
 `;
 
 export const InfoContainer = styled.div`
-  text-align: right;
+  text-align: center;
   margin: 0 10px;
   max-width: 1000px;
   border: 1px solid white;

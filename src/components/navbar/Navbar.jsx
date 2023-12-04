@@ -4,20 +4,20 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from 'react';
 const Navbar = () => {
 
-  
+  const[open,setOpen]=useState(false)
 
   return (
     <Nav>
       <Logo to="/home">
-        <i>{"<Clarusway/>"} </i>
+        <i>{"<esra yalcin/>"} </i>
         <span>recipe</span>
       </Logo>
 
-      <Hamburger>
+      <Hamburger onClick={()=>setOpen(!open)}>
         <GiHamburgerMenu />
       </Hamburger>
 
-      <Menu>
+      <Menu muhammed={open} onClick={()=>setOpen(false)}>
         <MenuLink to="/about"> about</MenuLink>
         <a href="https://github.com/" target='blank'>github</a>
         <MenuLink to="/">logout</MenuLink>

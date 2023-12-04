@@ -65,7 +65,7 @@ export const Menu = styled.div`
 
      /*  alttaki gibi de kontrol edebiliriz . Menu div i display flex ve flex-direction column old için alt altalar*/
   
-
+display:${({open})=>(open ? "flex":"none")}
 
 
      
