@@ -1,5 +1,9 @@
 #  Recipe App 
 
+## Expected Outcome
+
+https://github.com/Yalcinesra/RecipeApp/blob/main/recipe.gif
+
 ## Description
 
 Project aims to create a Recipe App.
@@ -75,10 +79,7 @@ Build a Recipe App using ReactJS.
 
 
 
-## Notes
 
-- You can add additional functionalities to your app.
 
-- [Assets Folder](./assets/)
 
 **<p align="center">&#9786; Happy Coding &#9997;</p>**
