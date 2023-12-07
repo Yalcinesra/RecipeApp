@@ -1,6 +1,8 @@
 #  Recipe App 
 
-## Expected Outcome
+## Demo
+  <a href="https://recipeapp-esra.netlify.app/" target="_blank">Shopping Cart</a>
+  
 
 ## Expected Outcome
 
@@ -56,9 +58,7 @@ SOLUTION
 └── yarn.lock
 ```
 
-## Expected Outcome
 
-![Project Snapshot](./food-search-app.gif)
 
 ## Objective
 
