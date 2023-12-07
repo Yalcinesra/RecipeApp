@@ -2,7 +2,10 @@
 
 ## Expected Outcome
 
-https://github.com/Yalcinesra/RecipeApp/blob/main/recipe.gif
+## Expected Outcome
+
+![recipe App](recipe.gif)
+
 
 ## Description
 
